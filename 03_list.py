@@ -62,8 +62,8 @@ print("\n")
 # 9. Combine two lists: one with names and one with roll numbers using zip() and print them as pairs.
 names = ['Ankit', 'Aditya', 'Ashis', 'Rohan', 'Ram', 'Mohan', 'Abhi', 'Vick', 'Ron', 'Ria']
 num_3 = [1, 2, 3, 4, 5, 6, 7, 8, 9, 10]
-data = zip(names, num_3)      # zip names and numbers together
-data_l = list(data)           # convert zip object to list of tuples
+data = zip(names, num_3)      # To zip names and numbers together
+data_l = list(data)           # To convert zip object to list of tuples
 print(data_l)
 print("\n")
 
@@ -75,4 +75,5 @@ matrix = [
 ]
 print(matrix)
 print(f"Second Row {matrix[1]}")  # second row (index 1)
-print(f"Second Column {[row[1] for row in matrix]}")  # elements at column index 1 in each row
+
+print(f"Second Column {[row[1] for row in matrix]}")  # elements at column index 1 , just the coulumn 
